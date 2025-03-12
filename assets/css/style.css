@@ -447,6 +447,7 @@ resize: none;
   margin-top: 20px;
   border-radius: 6px;
   transition: all .3s ease-in-out;
+  width:fit-content;
 }
 
 
@@ -912,6 +913,9 @@ img {
 
   .row .col {
     width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .row .col-privacy-policy {
@@ -962,6 +966,7 @@ img {
     justify-content: space-between;
     margin-top: 36px;
   }
+
   .contact-section-row .contact-section-heading,
   .contact-section-row .section--paragraph {
     max-width: 800px;
