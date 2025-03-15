@@ -154,21 +154,21 @@
                                 <form id="contact-form" method="POST" data-netlify="true" novalidate onSubmit="submit"> <!-- ATTRIBUTES WILL NEED TO BE UPDATED -->
 
                                 <div id="name-wrapper" class="input-control">
-                                    <label for="fname" class="sr-only">Name</label>
-                                    <input type="text" name="name" id="name" placeholder="Name" value="">
+                                    <label for="name" class="sr-only">Name</label>
+                                    <input type="text" name="name" id="name" placeholder="Name" value="" autocomplete="name">
                                     <p class="none error-message"><small>Name cannot be empty</small></p>
                                 </div>
 
 
                                 <div id="email-wrapper" class="input-control">
                                     <label for="email" class="sr-only">Email</label>
-                                    <input type="email" name="email" id="email" placeholder="Email Address" value="">
+                                    <input type="email" name="email" id="email" placeholder="Email Address" value="" autocomplete="email">
                                     <p class="none error-message"><small>Looks like this is not an email</small></p>
                                 </div>
 
                                 <div id="phone-wrapper" class="input-control">
                                     <label for="phone" class="sr-only">Phone Number</label>
-                                    <input type="number" name="phone" id="phone" placeholder="Phone Number" value="">
+                                    <input type="number" name="phone" id="phone" placeholder="Phone Number" value="" autocomplete="tel">
                                     <p class="none error-message"><small>Looks like this is not a Phone Number</small></p> <!-- Client Not Requiring Phone number validation -->
                                 </div>
 
@@ -179,7 +179,7 @@
 
                                 <div id="message-wrapper" class="input-control">
                                     <label for="message-input" class="sr-only">Message</label>
-                                    <textarea name="message" id="message-input" rows="3" placeholder="Provide details of what you are looking for, and we'll contact you with a free estimate." value=""></textarea>
+                                    <textarea name="message" id="message-input" rows="3" placeholder="Provide details of what you are looking for, and we'll contact you with a free estimate." value="" autocomplete="off"></textarea>
                                     <p class="none error-message"><small>Message must be a minimum of 80 characters</small></p>
                                 </div>
 
