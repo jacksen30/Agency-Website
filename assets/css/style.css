@@ -280,6 +280,7 @@ header.open .header__nav-list-item {
 
 .quote-outer-wrapper {
   background-color: #F5F5F5; /* Light grey background 100% width */
+  margin-top: 40px;
 }
 
 .contact-section-heading span {
