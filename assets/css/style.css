@@ -763,6 +763,31 @@ resize: none;
   margin-bottom: 8px;
 }
 
+/* TESTING FULL VIEWPORT HEIGHT FOR HERO SECTION */
+.main__row-1 {
+  height: 90vh;
+  justify-content: center;
+  /* background-color: #34D399; */
+}
+
+/* Set arrow position but keep hidden on mobile */
+.hero-arrow {
+  rotate: 20deg;
+  padding-top: 30px;
+  padding-left: 30px;
+  height: 262px;
+  width: 112px;
+
+  /* comment out below testing purposes only */
+  display: none;
+}
+
+.row--our-expertise {
+  /* desktop */
+  margin-bottom: 170px;
+  /* mobile */
+  margin-bottom: 100px;
+}
 
 /* Media Queries for viewports wider that 768px - ADDED TI REPORPUSE FOOTER FROM LDD / GDD website */
 @media screen and (min-width: 768px) {
@@ -872,6 +897,10 @@ resize: none;
 
   .row .col.col-404-page .custom-button-404 {
     margin: 33px auto;
+  }
+
+  .hero-arrow {
+    display: flex;
   }
 
   .services-box-row {
